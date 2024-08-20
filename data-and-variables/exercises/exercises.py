@@ -24,5 +24,3 @@ miles_to_moon = distance_moon_km * miles_per_kilometer
 hours_to_moon = miles_to_moon / shuttle_speed_mph
 days_to_moon = hours_to_moon / 24
 print(name_of_shuttle,"will take",days_to_moon,"days to reach the Moon.")
-print('Coding Rocks')
-print("Coding Rocks");
