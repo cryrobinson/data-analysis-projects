@@ -35,3 +35,4 @@ else:
     ending = 'Failed to reach orbit.'
     print('The shuttle gained an altitude of',altitude_reached,'km and has',starting_fuel_level,'kg of fuel left.', ending)
 # If the altitude is 2000 km or higher, add “Orbit achieved!” Otherwise add, “Failed to reach orbit.”
+
