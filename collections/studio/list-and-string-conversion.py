@@ -6,10 +6,16 @@ proto_list4 = "Comma-spaces, might, require, typing, caution"
 strings = [proto_list1, proto_list2, proto_list3, proto_list4]
 
 # a) Use the 'in' method to check to see if the words in each string are separated by commas (,), semicolons (;) or just spaces.
-
+print(',' in proto_list1)
+print(',' in proto_list2)
+print(',' in proto_list3)
+print(',' in proto_list4)
 
 # b) If the string uses commas to separate the words, split it into an array, reverse the entries, and then join the array into a new comma separated string.
-
+proto_list1_array = proto_list1.split(',')
+print(proto_list1_array)
+reversed_list1 = reversed(proto_list1[::-1])
+print(reversed_list1)
 
 
 # c) If the string uses semicolons to separate the words, split it into an array, alphabetize the entries, and then join the array into a new comma separated string.
