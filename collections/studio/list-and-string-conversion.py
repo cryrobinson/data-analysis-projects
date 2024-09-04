@@ -12,10 +12,7 @@ print(',' in proto_list3)
 print(',' in proto_list4)
 
 # b) If the string uses commas to separate the words, split it into an array, reverse the entries, and then join the array into a new comma separated string.
-proto_list1_array = proto_list1.split(',')
-print(proto_list1_array)
-reversed_list1 = reversed(proto_list1[::-1])
-print(reversed_list1)
+
 
 
 # c) If the string uses semicolons to separate the words, split it into an array, alphabetize the entries, and then join the array into a new comma separated string.

@@ -4,7 +4,7 @@ def make_line(size):
     for i in range(size):
         line += "#"
     return line 
-print(make_line(5))
+print(make_line(5) + "\n")
 
 
 # # Part 1 B -- Make a Square
@@ -51,7 +51,7 @@ def make_space_line(numSpaces, numChars):
     for i in range(numSpaces):
         line += " "
     return line
-print(make_space_line(3,5))
+print(make_space_line(3,5) + "\n")
 
 
 
