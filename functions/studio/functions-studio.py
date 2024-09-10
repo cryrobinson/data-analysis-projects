@@ -1,11 +1,40 @@
 # We want to COMPLETELY reverse a list by flipping the order of the entries AND flipping the order of characters in each element.
+test_1 = 'apple'
+test_2 = 'LC101'
+test_3 = 'Capitalized Letters'
+test_4 = 'I love the smell of code in the morning.'
+
+
 
 # a) Define a 'reverse_characters' function. Give it one parameter, which will be the string to reverse.
+# def reverse_characters(s):  BANK FOR LATER!!!
+#     str = ""
+#     for i in s:
+#         str = i + str
+#     return str
+
+def reverse_characters(value):
+    my_list = list(test_1)
+    
+    conditional
+
+print(reverse_characters(test_1))
+
+###if int or float, will need to do one thing; establish one variable, determine if string or number first; if type is int or float, going to have to convert; 
 # b) Within the function, use the 'list' function to split a string into a list of individual characters
+def create_list():
+    my_list = list(test_1)
+    return my_list
+
+
 # c) 'reverse' your new list.
+print(reverse_characters(create_list()))
 # d) Use 'join' to create the reversed string and return that string from the function.
+
 # e) Create a variable of type string to test your new function. # f) Use 'print(reverse_characters(my_variable_name))'; to call the function and verify that it correctly reverses the characters in the string.
+
 # g) Use method chaining to reduce the lines of code within the function.
+
 
 
 
